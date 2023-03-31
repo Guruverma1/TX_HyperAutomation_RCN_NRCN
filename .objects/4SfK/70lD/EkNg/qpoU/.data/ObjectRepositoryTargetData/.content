@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Oad-oswU6EiTeLt6BZMrAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/FST" DesignTimeRectangle="8, 119, 446, 135" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Flat Watch HD32' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Flat Watch HD32' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeInactive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMObjLItem sapMObjLListModeDiv' aaname='' check:innerText='1.459,00&amp;#xD;&amp;#xA;EUR&amp;#xD;&amp;#xA;Emphasized&amp;#xD;&amp;#xA;Object Number&amp;#xD;&amp;#xA;Flat Watch HD32&amp;#xD;&amp;#xA;Very Best ScreensAvailable&amp;#xD;&amp;#xA;Entry validated' /&gt;" Guid="94efc4cc-b220-4829-820e-c3497aa24881" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2ecf62a0b37b5e8e5a4f6cfc73d9ab59.png" xmlns="">08_8xie1wJkCB9qLpmNvUKw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

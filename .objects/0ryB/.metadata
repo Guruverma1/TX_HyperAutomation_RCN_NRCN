@@ -1,0 +1,11 @@
+﻿{
+  "Id": "0ryBbFo0EEKZEpIASyvJzg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/0ryBbFo0EEKZEpIASyvJzg",
+  "Name": "Amazon_Login",
+  "Type": "App",
+  "Created": "2023-03-20T07:40:54.153842Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T07:40:54.153842Z"
+}

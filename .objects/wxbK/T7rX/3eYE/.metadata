@@ -1,0 +1,12 @@
+﻿{
+  "Id": "3eYEqiHAGUOXHaLn0NogDg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/3eYEqiHAGUOXHaLn0NogDg",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/T7rXMU-U7kG7I-Mp4KkZmA",
+  "Name": "Chrome: opencart_Logout",
+  "Type": "Screen",
+  "Created": "2023-03-27T11:59:27.5037646Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:59:27.5037646Z"
+}

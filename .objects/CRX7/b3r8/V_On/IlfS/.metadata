@@ -1,0 +1,16 @@
+﻿{
+  "Id": "IlfSy_tfvk6-N1ldLdZczw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/IlfSy_tfvk6-N1ldLdZczw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/V_OnFo6WTUGbtvmd84qkxg",
+  "Name": "Log in",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-24T12:43:13.9787677Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-24T12:44:58.5998919Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

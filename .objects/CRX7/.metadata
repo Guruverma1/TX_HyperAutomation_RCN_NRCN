@@ -1,0 +1,14 @@
+﻿{
+  "Id": "CRX7SgC58U2OMWNLNIE9Gw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/CRX7SgC58U2OMWNLNIE9Gw",
+  "Name": "nopCommerce_AddToCart_Login",
+  "Type": "App",
+  "Created": "2023-03-24T12:43:13.7952385Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T10:27:03.9782898Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

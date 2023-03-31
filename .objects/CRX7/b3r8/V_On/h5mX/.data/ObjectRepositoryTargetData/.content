@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y7wFXcctQ0-7A8AkOQYUgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://demo.nopcommerce.com/login?returnUrl=%2F" DesignTimeRectangle="812, 303, 300, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT Email'" FullSelectorArgument="&lt;webctrl id='Email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Email' tag='INPUT' type='email' class='email' aaname='Email:' /&gt;" Guid="4381dab2-86f5-45c8-b986-27977cc5fac3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATAAAAAsCAYAAADimOSnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dSxDYAwEMBA9t8xg3wVOhpCj6U7ySv4mpktScUMTFK2Z2BrLUlKdBwYwN8ZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJD1OTBJKvQamCTVMjBJ0WbfrPrM+z/qJ1IAAAAASUVORK5CYII=" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Login' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="692, 315, 110, 16" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' check:innerText='Email:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAUCAYAAABRcGk6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVGhD7dfhDYMgEIbhDsc47CKD6B6GMdiCX1c5QbFic02lSS9fkzepUknjI9o+KL9ijOiPA6SSAKkkQCoJkEoCpLTZkTGmnZ0otI75Mj8scw/+9L4VIKUlyE5gkgB5VxLIMJE1jny9etPJ5/15O41XxzDQNrZUYV2uSJ7/OA8gpYkhqxO+AZaTHmiyhuwYeJxx6jnzBeDmdfsSshEgpdWr7KUCs8JZmkI57giXCqN9A+LJLfMBsmfiFXmGLDCpFiTvqy4MQPasA+QOWG69WJH9ux3yPAbIX9QJcn9+rtu4tfbuzY8dU/A+fUby5/d53JwxG3gHSP4u+PuhMkAqCZBKAqSSAKmiSE8vffG5z4MZFwAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d6e0ab660bda713cd4201e3543787ea.png" xmlns="">0kHOOg7fFu0qW88kWkMemKg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

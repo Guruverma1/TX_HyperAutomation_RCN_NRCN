@@ -1,0 +1,13 @@
+﻿{
+  "Id": "-pzuV1HSBkW7Bc8DxwduPA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/-pzuV1HSBkW7Bc8DxwduPA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/qpst7DUzHkKAvNPj0gzy8g",
+  "Name": "Books",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-27T10:32:42.7082695Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T10:32:42.7082695Z"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CR1bYN7m6ki1p9aptomUaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="554, 1, 47, 30" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="618b1a93-2f2e-4def-a197-f2f1b6bb0ddb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAhCAYAAAB0v5O6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVFhH7ZVBqoMwEIY9Rey27Vuo4E7UheJGcCF4IM/iNdqlB3HlGfQAU37BkvcI8moZSSTCh8FxMR+T/HGqqiLdKcuS8jynNE0pDEPyff9NEARvnHmeSXfGcaS+76nrOqrrmuI4/iW0ShkhIzMMA7VtS0VRLAKykHEyKxD6OyFjZTAhbDn5DBkrA3CGkiQ5hwxCASl3ChmkHGLb8zzzZQDuIcgAK7PF9Xanx/OprAHUbvcfZW0PrDJo1r1clEJbtb2wbzNV0xwi4JAzIzfPJQIOC4BVgksEWJlPWUXwlteqf7/BBsB/2WqaQ4hNZpqm5ULcahY1XKyq2h5YJwMh1XcuDgmAo7AyumJldMXK6IqV0ZVTyTRNQ1EULThk+JNlGQkhyHXd88gIIegFEM2su9vrp5oAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='MainForm' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="23248f645c1f418ecf40565ee44925f7.png" xmlns="">0aaELpuKXeEW2JJmuZEDIVA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

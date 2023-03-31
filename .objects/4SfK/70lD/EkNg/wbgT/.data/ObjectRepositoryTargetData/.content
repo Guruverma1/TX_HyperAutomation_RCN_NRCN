@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WjoSmrdI-UWbWxJZnk2oJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" DesignTimeRectangle="1232, 692, 59, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--submitOrder' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--submitOrder' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Submit' check:innerText='Submit' /&gt;" Guid="3d567a76-a885-42d4-beac-d740bf2b4594" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="462bd9bfec40ce0fa85a0b56ac6d4b53.png" xmlns="">0ZVl1zuDrF0GnBHuMgh-4YQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

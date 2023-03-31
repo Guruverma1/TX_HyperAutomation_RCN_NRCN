@@ -1,0 +1,13 @@
+﻿{
+  "Id": "qpoU35KA1U-K84IdduX8vw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/qpoU35KA1U-K84IdduX8vw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw",
+  "Name": "Flat_Watch_HD32",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-29T11:21:40.5558523Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T11:21:40.5558523Z"
+}

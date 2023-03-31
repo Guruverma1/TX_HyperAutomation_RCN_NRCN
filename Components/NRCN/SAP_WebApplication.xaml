@@ -1,0 +1,619 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SAP_WebApplication" this:SAP_WebApplication.value="Enter a valid value." this:SAP_WebApplication.OrderCompleted="Order Completed" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="NameValidation" Type="InArgument(x:String)" />
+    <x:Property Name="value" Type="InArgument(x:String)" />
+    <x:Property Name="OrderCompleted" Type="InArgument(x:String)" />
+    <x:Property Name="OrderVerify" Type="InArgument(x:String)" />
+    <x:Property Name="DataTB" Type="InArgument(sd:DataTable)" />
+  </x:Members>
+  <this:SAP_WebApplication.NameValidation>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SAP_WebApplication.NameValidation>
+  <this:SAP_WebApplication.OrderVerify>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SAP_WebApplication.OrderVerify>
+  <this:SAP_WebApplication.DataTB>
+    <InArgument x:TypeArguments="sd:DataTable" />
+  </this:SAP_WebApplication.DataTB>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>794,15717</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="86">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="88">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SAP_WebApplication" sap:VirtualizedContainerService.HintSize="804,15652" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="wrongname" />
+      <Variable x:TypeArguments="x:String" Name="HolderName" />
+      <Variable x:TypeArguments="x:String" Name="Note" />
+      <Variable x:TypeArguments="x:String" Name="zipcode" />
+      <Variable x:TypeArguments="x:String" Name="City" />
+      <Variable x:TypeArguments="x:String" Name="Securitycd" />
+      <Variable x:TypeArguments="x:String" Name="expdate" />
+      <Variable x:TypeArguments="x:String" Name="Address" />
+      <Variable x:TypeArguments="x:String" Name="cardnum">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">1234567891234567</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="county" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="762,85" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="SAP_AddToCart" />
+    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="762,85" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="SAP_WebApplication" />
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="762,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="SAP" WorkbookPath="Config\TX_Hyper_Excel.xlsx">
+      <ui:ReadRange.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">DataTB</mca:CSharpReference>
+        </OutArgument>
+      </ui:ReadRange.DataTable>
+    </ui:ReadRange>
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="762,15186" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="728,15070" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="686,349" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">wrongname</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">CurrentRow["WrongName"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">HolderName</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">CurrentRow["HolderName"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">Securitycd</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">CurrentRow["SecurityCode"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">expdate</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">CurrentRow["ExpDate"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">Address</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">CurrentRow["Address"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">City</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">CurrentRow["City"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">zipcode</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">CurrentRow["ZipCode"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">county</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">CurrentRow["Country"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">Note</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">CurrentRow["Note"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: SAP" sap:VirtualizedContainerService.HintSize="686,14593" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a79b0d82-f6ad-4c8e-b49b-464befdcc94b" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="652,14376" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Launch Google Chrome Browser " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="610,133" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Step 1" Status="Pass" TakeScreenshot="False" />
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Demo Apps'" sap:VirtualizedContainerService.HintSize="610,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/#/demoapps.html" ContentHash="GlnlK_toHkGiTk_XU4fJ8g" DesignTimeRectangle="415, 85, 108, 44" DesignTimeScaleFactor="1" FriendlyName="'Demo Apps'" FullSelectorArgument="&lt;webctrl id='sdk---app--tabHeader' /&gt;&lt;webctrl id='sdk---app--demoAppsTab' /&gt;" FuzzySelectorArgument="&lt;webctrl id='sdk---app--tabHeader' /&gt;&lt;webctrl id='sdk---app--demoAppsTab' tag='DIV' type='' class='sapMITBItem sapMITBItemNoCount sapMITBVertical sapMITBFilter sapMITBFilterDefault' aaname='' check:innerText='Demo Apps' /&gt;" Guid="a9d3fed4-d2a9-4e22-8110-523d35f94187" InformativeScreenshot="1f0b705f0c24c90dfe50237db7ae924c.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/YzUWZ5WfrUKcjwtYOD0C3Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Not found' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Shopping Cart'" sap:VirtualizedContainerService.HintSize="610,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a79b0d82-f6ad-4c8e-b49b-464befdcc94b" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/#/demoapps" ContentHash="2jeLEOTDq0iKc9E-UuPUOw" DesignTimeRectangle="56, 536, 164, 33" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Shopping Cart'" FullSelectorArgument="&lt;webctrl ui5-class='sap.ui.documentation.TitleLink' ui5-role='heading' ui5p-text='Shopping Cart' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.ui.documentation.TitleLink' ui5-role='heading' ui5p-text='Shopping Cart' tag='H1' type='' class='sapUiDocTitleLink sapMTitle sapMTitleStyleH1 sapUiSelectable wrap sapMTitleMaxWidth sapUiTinyMarginTop' aaname='' check:innerText='Shopping Cart' /&gt;" Guid="c3c08db6-a592-444f-9586-39970681e1f0" InformativeScreenshot="c3bcfb52aa75fd2cf1495161226da7fb.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/vdE5DCUEhky-lSTwZnQTxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Apps - Demo Kit - SAPUI5 SDK' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Shopping cart " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="610,133" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="Step 2" Status="Pass" TakeScreenshot="False" />
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: Shopping Cart" sap:VirtualizedContainerService.HintSize="610,13544" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="680c6fa9-6184-4e8a-9262-effda3ee536c" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="576,13327" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Click_On_Laptop'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="680c6fa9-6184-4e8a-9262-effda3ee536c" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark" ContentHash="TUAw5KQzlEmqh-eLerMnlQ" DesignTimeRectangle="8, 79, 0, 0" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'Loptop_Search'" FullSelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Laptops' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Laptops' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeActive sapMLIBActionable sapMLIBFocusable sapMSLI sapMLIBHoverable' aaname='' check:innerText='Laptops&amp;#xD;&amp;#xA;11' /&gt;" Guid="8d72c67a-b541-49fe-976e-8972c093a7b8" ImageBase64="" InformativeScreenshot="73681a8942a68dd7336d1500221e295f.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/-Jyv8O56FEaHpFkXWuC_cw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Search for laptop " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_3" Name="Step 3" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Astro Laptop 1516'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT" ContentHash="CWbfLRPoyUOifJMeFaExCg" DesignTimeRectangle="8, 119, 434, 135" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Astro Laptop 1516' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Astro Laptop 1516' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeInactive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMObjLItem sapMObjLListModeDiv' aaname='' check:innerText='989,00&amp;#xD;&amp;#xA;EUR&amp;#xD;&amp;#xA;Emphasized&amp;#xD;&amp;#xA;Object Number&amp;#xD;&amp;#xA;Astro Laptop 1516&amp;#xD;&amp;#xA;Ultrasonic UnitedAvailable&amp;#xD;&amp;#xA;Entry validated' /&gt;" Guid="f02fab96-b7b2-4f7a-86d0-50ccdc4120c8" ImageBase64="" InformativeScreenshot="755d86a0cd692f4d82881d506828a0b2.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/hUANll80fEKkXiMZyM22Pg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on laptop " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_4" Name="Step 4" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Add to Cart'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251" ContentHash="cbi3DH_Ia0mA2Ziol97L-A" DesignTimeRectangle="1279, 693, 87, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Add to Cart' check:innerText='Add to Cart' /&gt;" Guid="07d2bd5a-e032-4d8b-944e-bee26031200c" InformativeScreenshot="b586f05aa1c57c24cff58874ad6c45a0.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/AJeUyjLO10W_BX5Sa55brw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Add Laptop to Cart " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_5" Name="Step 5" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Back'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable ContentHash="TIlYLsVWKEyLwNvgsEXYPg" DesignTimeRectangle="8, 46, 36, 28" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Back'" FullSelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Back' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Back' role='push button' automationid='' check:text='Back' /&gt;" Guid="3bf70c20-b320-49a2-95af-42bac8088ebf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAYAAABgrToAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADDSURBVFhH7dExDgIhEEZhL6XFdlp4+416FKM97m8eDZkChyFuMSSv2MCSDzjUUbZxPC27C14C3cFLoDt4CXQHL4Hu4MUDz5drWW+Pb9Z8b/BigRX3fL3Let8ZsMXp21rXG7wYYDROwRsHzsApeGPAWTgFbwwolHC/pANZe7XB+wNw+8faqw1ewBOD1M3s7onVLCS8caCagYQXA1TRSHhxQNUirTW9wYsFqopU1nxv8OKBUcFLoDt4CXQHL4Hu4CXQ2VI+H/+V/uzX4k4AAAAASUVORK5CYII=" InformativeScreenshot="abf6943f5d7cd187793a9092a4fb41b1.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/CENXEfK_wEmHermsxlgPmg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Shopping Cart - Google Chrome' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Back Button " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_6" Name="Step 6" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'FlatScreen_TV'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark" ContentHash="wVDgR6WcDE6O9IAKDGNUEA" DesignTimeRectangle="8, 295, 446, 32" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Flat Screen TVs' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Flat Screen TVs' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeActive sapMLIBActionable sapMLIBFocusable sapMSLI sapMLIBHoverable' aaname='' check:innerText='Flat Screen TVs&amp;#xA;3' /&gt;" Guid="1b97ae80-d910-470d-aa39-1016995a70ae" InformativeScreenshot="dbf03b1b685ba721bec3326fe4afd5c9.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/Xy57pg0UQEe5BLBhqLRzLQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Search for Flat Screen TV " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="Step 7" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Flat_Watch_HD32'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/FST" ContentHash="Oad-oswU6EiTeLt6BZMrAw" DesignTimeRectangle="8, 119, 446, 135" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Flat Watch HD32' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Flat Watch HD32' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeInactive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMObjLItem sapMObjLListModeDiv' aaname='' check:innerText='1.459,00&amp;#xD;&amp;#xA;EUR&amp;#xD;&amp;#xA;Emphasized&amp;#xD;&amp;#xA;Object Number&amp;#xD;&amp;#xA;Flat Watch HD32&amp;#xD;&amp;#xA;Very Best ScreensAvailable&amp;#xD;&amp;#xA;Entry validated' /&gt;" Guid="94efc4cc-b220-4829-820e-c3497aa24881" ImageBase64="" InformativeScreenshot="2ecf62a0b37b5e8e5a4f6cfc73d9ab59.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/qpoU35KA1U-K84IdduX8vw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Flat Screen TV " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name="Step 8" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Add to Cart'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251" ContentHash="cbi3DH_Ia0mA2Ziol97L-A" DesignTimeRectangle="1279, 693, 87, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Add to Cart' check:innerText='Add to Cart' /&gt;" Guid="07d2bd5a-e032-4d8b-944e-bee26031200c" InformativeScreenshot="b586f05aa1c57c24cff58874ad6c45a0.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/AJeUyjLO10W_BX5Sa55brw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="ADD Flat screen TV to Cart " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_9" Name="Step 9" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Edit_Cart'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/FST/product/HT-6130" ContentHash="8f9R_tQcakiYYJXQlPH1Qg" DesignTimeRectangle="1334, 87, 16, 24" DesignTimeScaleFactor="1" FriendlyName="'SAP.UI.CORE.ICON __butt…'" FullSelectorArgument="&lt;webctrl idx='2' ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://cart' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://cart' type='' class='sapUiIcon sapUiIconMirrorInRTL sapMBtnCustomIcon sapMBtnIcon sapMBtnIconLeft' aaname='' /&gt;" Guid="210bf283-5c18-479e-8b29-e505e9ddbd06" InformativeScreenshot="7506ae167b7d5daabe120bc8ca5d35f6.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/XOk4XVN33UWWRCIQWEeE5w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Cart " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_10" Name="Step 10" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Click_Edite'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251/cart" ContentHash="Y8JolcM7dkSaWHokMfNtNw" DesignTimeRectangle="1334, 87, 16, 24" DesignTimeScaleFactor="1" FriendlyName="'SAP.UI.CORE.ICON contai…'" FullSelectorArgument="&lt;webctrl id='container-cart---cartView--editButton-img' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---cartView--editButton-img' tag='SPAN' type='' class='sapUiIcon sapUiIconMirrorInRTL sapMBtnCustomIcon sapMBtnIcon sapMBtnIconLeft' aaname='' /&gt;" Guid="32e2ee65-bf31-4e78-8ccd-2912f66295fd" InformativeScreenshot="eda2f68f960e6fd2ec531853ebd4a8b0.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/HvWLBu9x3k-DKVCS1n8DOg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Edit the cart " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_11" Name="Step 11" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Delet_AstroLaptop_IntoCart'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251/cart" ContentHash="t8Fhcd71hUGL80Ay9A8rSQ" DesignTimeRectangle="1334, 220, 16, 24" DesignTimeScaleFactor="1" FriendlyName="'SAP.UI.CORE.ICON'" FullSelectorArgument="&lt;webctrl ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://decline' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://decline' tag='SPAN' type='' class='sapUiIcon sapUiIconMirrorInRTL sapMBtnCustomIcon sapMBtnIcon sapMBtnIconLeft' aaname='' /&gt;" Guid="6604a71d-c2ab-41d3-acd7-12c0e64dc1a8" InformativeScreenshot="47d5adb3745479fde96396d29b04ffdd.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/7Ekb3VVhsEa5O0cuWRhMwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Delete the Laptop Item " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_12" Name="Step 12" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Click_on_Delete'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251/cart" ContentHash="LzLW95CO10WpWSSCQGqt5w" DesignTimeRectangle="706, 429, 64, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Delete'" FullSelectorArgument="&lt;webctrl ui5-role='button' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-role='button' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBarChild' aaname='Delete' check:innerText='Delete' /&gt;" Guid="5965ed87-93a1-49b9-ad94-6d2161912f87" InformativeScreenshot="ec16e342ee016cb30aa245f90287d7a6.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/6X_rJuDhOkmvu2DCVjQxkw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Delete Button " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_13" Name="Step 13" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'SaveChanges'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/FST/product/HT-6130/cart" ContentHash="AW6XCIRpmUGOUtzYNip6tg" DesignTimeRectangle="1261, 693, 105, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Save Changes'" FullSelectorArgument="&lt;webctrl id='container-cart---cartView--doneButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---cartView--doneButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBarChild' aaname='Save Changes' check:innerText='Save Changes' /&gt;" Guid="62afcf5b-4fe5-4bcd-8c52-05d1acca66b7" InformativeScreenshot="7735b882276d84ac37bdbf070fad1c1f.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/FFshyi3POkWyQGQaYfcySg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on save changes " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_14" Name="Step 14" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Proceed'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/FST/product/HT-6130/cart" ContentHash="zF45jaPZj0e5F9v2m2WDPg" DesignTimeRectangle="1299, 693, 67, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Proceed'" FullSelectorArgument="&lt;webctrl id='container-cart---cartView--proceedButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---cartView--proceedButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Proceed' check:innerText='Proceed' /&gt;" Guid="f5effaa9-3e1a-4d01-99c9-7ab5b096f93a" InformativeScreenshot="dd278bf1ba2e88242d3acbe8ccfed6b5.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/TRVux1XWdEyfe0qWptS-qA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Proceed " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_15" Name="Step 15" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Step2'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="ZEE6z1s9V0qSGnCIN4mJqQ" DesignTimeRectangle="40, 430, 56, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Step 2'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--contentsStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--contentsStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Step 2' check:innerText='Step 2' /&gt;" Guid="6f7e9a11-1786-48c3-9c77-6921cc99f2e4" InformativeScreenshot="57d805494f56202872a1bee1aa2a7826.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/bwiPpHw56kuww9dYeaJVrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Step2 " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_16" Name="Step 16" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Step3'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="uf8P2t115E-fm3pEEJBMRg" DesignTimeRectangle="40, 340, 56, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Step 3'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--paymentTypeStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--paymentTypeStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Step 3' check:innerText='Step 3' /&gt;" Guid="9b182397-10a4-4ef8-9907-43dc6d50f296" InformativeScreenshot="23ed8bcda46d06772f3f2bf61ca2dc19.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/j5VJ6y4fdUq1qydHCsL5PQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Step3 " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="Step 17" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter_WrongName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="n7FMtEYZG0OdBVfwyPFEqQ" DesignTimeRectangle="478, 271, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardHolderName' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardHolderName' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapMFocus sapMInputFocused' aaname='' /&gt;" Guid="81bc8c16-4012-4c01-8604-7564f02fc23e" InformativeScreenshot="fc4dfd3a972fe2578a05a7ee4a1d1b20.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/N7nTQ9EUIkO9DqAcIPt97g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">wrongname</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="534,179" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                            <uix:NGetText DisplayName="Get Text 'Enter a valid value.'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="680c6fa9-6184-4e8a-9262-effda3ee536c" Version="V3">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" DesignTimeRectangle="508, 306, 101, 14" DesignTimeScaleFactor="1" FriendlyName="'Enter a valid value.'" FullSelectorArgument="&lt;webctrl tag='SPAN' aaname='Enter a valid value.' innertext='Enter a valid value.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' /&gt;" Guid="1028da17-4dda-49cc-b9bc-5877128d3594" ImageBase64="" InformativeScreenshot="b9c6571c1860066b8b816cf30a617c81.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NGetText.Target>
+                              <uix:NGetText.TextString>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">NameValidation</mca:CSharpReference>
+                                </OutArgument>
+                              </uix:NGetText.TextString>
+                            </uix:NGetText>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Enter Valid Name" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_18" Name="Verfication" Status="Compare" TakeScreenshot="True" />
+                            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                              <uta:VerifyExpressionWithOperator.FirstExpression>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">NameValidation</mca:CSharpValue>
+                                </InArgument>
+                              </uta:VerifyExpressionWithOperator.FirstExpression>
+                              <uta:VerifyExpressionWithOperator.SecondExpression>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">value</mca:CSharpValue>
+                                </InArgument>
+                              </uta:VerifyExpressionWithOperator.SecondExpression>
+                            </uta:VerifyExpressionWithOperator>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter_CardHolderName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="n7FMtEYZG0OdBVfwyPFEqQ" DesignTimeRectangle="478, 271, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardHolderName' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardHolderName' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapMFocus sapMInputFocused' aaname='' /&gt;" Guid="81bc8c16-4012-4c01-8604-7564f02fc23e" InformativeScreenshot="fc4dfd3a972fe2578a05a7ee4a1d1b20.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/N7nTQ9EUIkO9DqAcIPt97g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">HolderName</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Card holder name" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_19" Name="Step 18" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CardNumber'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="iUDiNSDrOkCBUQ0raAQ2BQ" DesignTimeRectangle="478, 303, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'____-____-____-____Ente…'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardNumber' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardNumber' tag='DIV' type='' class='sapMInputBaseNoWidth sapMInputBase sapMInputBaseHeightMargin sapMFocus' aaname='' /&gt;" Guid="547583fc-43b4-4e9b-8f5e-0d4a25e69f06" InformativeScreenshot="6b83f0cfd1348bbd3f25a5ce54350ae6.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/l1SworNxr0mOTjWkIGvI4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">cardnum</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Card number" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_20" Name="Step 19" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'SecurityCode'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="2O5IAIWx6k2ABrngh3mkSw" DesignTimeRectangle="478, 335, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Enter the'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardSecurityNumber' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardSecurityNumber' tag='DIV' type='' class='sapMInputBaseNoWidth sapMInputBase sapMInputBaseHeightMargin' aaname='' /&gt;" Guid="fb7de805-cd23-404e-a840-50cd6c2efc09" InformativeScreenshot="6c882b3d2e374c57420e1359f00b8a4d.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/crBayDHLEU6GNtg8VQYYmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">Securitycd</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Security Number" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="Step 20" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'ExpDate'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="iV0mGd7xzUKAlKRULggwtg" DesignTimeRectangle="478, 367, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.DATEPICKER'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardExpirationDate' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardExpirationDate' tag='DIV' type='' class='sapMInputBaseNoWidth sapMInputBase sapMInputBaseHeightMargin sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="3f4526c0-1ce7-4a42-81a7-5c1669270a66" InformativeScreenshot="16fba5c35290834980182fad7e8e2576.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/2lLmqVrmbEmloRffV4FXbg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">expdate</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing ExpiryDate" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Step 21" Status="Pass" TakeScreenshot="False" />
+                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="534,179" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Step4'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="-y_3F6YuvEWPt7CpssdrDw" DesignTimeRectangle="40, 420, 56, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Step 4'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Step 4' check:innerText='Step 4' /&gt;" Guid="ea8f4789-3612-413d-af84-bcc0d0333588" InformativeScreenshot="16312c949cbd2cc655948ace3de1c523.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/6D5QXt-FjkGyQHNHANfyVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="click on step 4" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_23" Name="Step 22" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="wuX0IIRHh0C9PRgquhgdJQ" DesignTimeRectangle="478, 303, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressAddress' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressAddress' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput' aaname='' /&gt;" Guid="0606987e-dcc7-4942-8a42-8f19e8725a90" InformativeScreenshot="53b845c96b05f3885bd42bee136f88d7.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/PSL8UAModUufVyJFs8JTiQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">Address</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Address" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_24" Name="Step 23" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="871DOLgCm0qAiBaH7AdOPQ" DesignTimeRectangle="478, 335, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT container-c…'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCity' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCity' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput' aaname='' /&gt;" Guid="3cd0b643-9b17-4409-be57-7535ce239634" InformativeScreenshot="81b3a265408188f8222500f9eec8cd82.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/dFdY9mWiwk6G_T8Jp-fs4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">City</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing City" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_25" Name="Step 24" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'ZipCode'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_8" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="XLVtcWuv3UyG8TRByCxBLw" DesignTimeRectangle="478, 367, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT container-c…'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressZip' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressZip' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput' aaname='' /&gt;" Guid="db8a02f9-6fb6-4e9f-84c4-73b8e7fa45c6" InformativeScreenshot="0470951ce14010bb5cebac119b2538f3.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/1knOC2_k9USXLnVBIkvgcA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">zipcode</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Pincode" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_26" Name="Step 25" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Country'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="AZF0qd2aPE6qJ2VQtUlMmg" DesignTimeRectangle="478, 399, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCountry' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCountry' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput' aaname='' /&gt;" Guid="4a47c1ed-bcb1-4a45-931e-f0a2ac91561f" InformativeScreenshot="a1f00c627bc7529ae42aae8622ae3eaa.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/CElrTd0F-0u6qRShDs0xQA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">county</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Country" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_27" Name="Step 26" Status="Pass" TakeScreenshot="False" />
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Note'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="m7-RD3Fz-0yDvq9nAqpSeA" DesignTimeRectangle="478, 431, 836, 173" DesignTimeScaleFactor="1" FriendlyName="'SAP.M.TEXTAREA __area0'" FullSelectorArgument="&lt;webctrl ui5-label='Note' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-label='Note' tag='DIV' type='' class='sapMInputBaseNoWidth sapMInputBase sapMInputBaseHeightMargin sapMTextArea' aaname='' /&gt;" Guid="79dcc2eb-2110-4db5-9826-7adf2eb8e7a3" InformativeScreenshot="be4cf9cc7d4ffc7415b8d780ee93dbf7.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/v4lH-Lh0vUmE8Fy1Mc7K2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">Note</mca:CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                            </uix:NTypeInto>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Typing Note" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_28" Name="Step 27" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Step5'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="lNZvPNZvuUy8xIKF38jATg" DesignTimeRectangle="40, 631, 56, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Step 5'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Step 5' check:innerText='Step 5' /&gt;" Guid="eec0e90b-108c-43c6-ade8-4508b61b9151" InformativeScreenshot="84759b711813305d611b40a8a692466e.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/Qr710Dop6kehzKATHzYx4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Step5" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_29" Name="Step 28" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'OrderSummary'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="9b-faW8NEkuSJ-2LbFGdzA" DesignTimeRectangle="40, 340, 114, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Order Summary'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--deliveryTypeStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--deliveryTypeStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Order Summary' check:innerText='Order Summary' /&gt;" Guid="801e56fb-f9ba-4357-a99e-14c365f55e1f" InformativeScreenshot="3cd48f619d3da67dc5fb0b3367a4bcdd.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/qtWSLqwBaUmGqWfDRI9Ylw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Order Summary" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_30" Name="Step 29" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="WjoSmrdI-UWbWxJZnk2oJg" DesignTimeRectangle="1232, 692, 59, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--submitOrder' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--submitOrder' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Submit' check:innerText='Submit' /&gt;" Guid="3d567a76-a885-42d4-beac-d740bf2b4594" InformativeScreenshot="462bd9bfec40ce0fa85a0b56ac6d4b53.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/wbgTi9VASECkbxnYfe_NBA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on submit" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_31" Name="Step 30" Status="Pass" TakeScreenshot="False" />
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Yes_SubmitOrder'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" ContentHash="_wvt398ls0GLBSOr8keVsA" DesignTimeRectangle="699, 429, 64, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Yes'" FullSelectorArgument="&lt;webctrl ui5-role='button' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-role='button' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBarChild' aaname='Yes' check:innerText='Yes' /&gt;" Guid="2f4f6995-5eda-4e29-965c-893510630622" InformativeScreenshot="50cfb3b6063d82c0ee1eb0de31fe7d58.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/iO-X67yTYkiO0xxSScb42w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Yes for submit" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_32" Name="Step 31" Status="Pass" TakeScreenshot="False" />
+                            <uix:NGetText DisplayName="Get Text 'Order Completed'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="680c6fa9-6184-4e8a-9262-effda3ee536c" Version="V3">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/ordercompleted" DesignTimeRectangle="12, 83, 131, 32" DesignTimeScaleFactor="1" FriendlyName="'Order Completed'" FullSelectorArgument="&lt;webctrl id='container-cart---orderCompletedView--orderCompletedPage-title' innertext='Order Completed' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---orderCompletedView--orderCompletedPage-title' tag='DIV' type='' class='sapMTitle sapMTitleStyleAuto sapMTitleNoWrap sapUiSelectable sapMTitleMaxWidth sapMBarChild' aaname='' /&gt;" Guid="b1a329aa-4588-4eaa-b09e-9a5cbac3e195" InformativeScreenshot="1b988811f91b7b3cec79ba42ea403b7f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NGetText.Target>
+                              <uix:NGetText.TextString>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">OrderVerify</mca:CSharpReference>
+                                </OutArgument>
+                              </uix:NGetText.TextString>
+                            </uix:NGetText>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Order confirmed verified" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_33" Name="Step 32" Status="Pass" TakeScreenshot="False" />
+                            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                              <uta:VerifyExpressionWithOperator.FirstExpression>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">OrderVerify</mca:CSharpValue>
+                                </InArgument>
+                              </uta:VerifyExpressionWithOperator.FirstExpression>
+                              <uta:VerifyExpressionWithOperator.SecondExpression>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">OrderCompleted</mca:CSharpValue>
+                                </InArgument>
+                              </uta:VerifyExpressionWithOperator.SecondExpression>
+                            </uta:VerifyExpressionWithOperator>
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="680c6fa9-6184-4e8a-9262-effda3ee536c" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable DesignTimeRectangle="1328, 8, 46, 29" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="f81af444-3c10-4a7b-ba63-14a7c7821210" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAhCAYAAACbffiEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACnSURBVFhH7ZNRCoNQDARzlBZ6RPH6loV94Ef6rJLAKjswKMSPDJgwamw3hxkRr/dnu6sOUdMhajpETYf8I1iWNZ1BzEA2OytgRn3IWDSLmc2uCJjR82tlC1dHQMCMvhvZL94RAQEzeo99BIDqCAiY4ZBDRwSe+/fs26sCZvjYfzpbuDoGMKM+BMwWHTHZ7KyAGb3H3q1D1HSImg5R0yFqOkTNB4ZEfAExxjMYnhWxZwAAAABJRU5ErkJggg==" InformativeScreenshot="d468ff897e6be5d0194253fcbfb12f26.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Shopping Cart - Google Chrome' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="close application" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_34" Name="Step 33" Status="Pass" TakeScreenshot="False" />
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="hEFpdZfhsEG6C7mXAGhRBg" IconBase64="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" InformativeScreenshot="642cc27b1d8bbb518111ef8700f1f95e.jpg" Reference="l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw" Selector="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" Title="Shopping Cart" Url="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="Wld-d3suoE-MTge2qGiYXg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALXSURBVDhPdVNbS1RRFB66ODM6jpnWw7wIPokVRCUFFT31IBlR/yB66SV78Smz7CZe6GKhFpSIitToeJuCCjSUQEFIokhrxrl2zjT348yccc7MOedr7eNYCvXBxz5n7bW+tfbaa+s2A4CeeIZoJfKCpMpTvCQH0gqft7E9fd59K2jDQuwiCkQNigp84CU0zCXQu5RGKK2wPeZjyYetgxmIdiLSsorFSE5bN+BKyKifEVA7FsGUN8OEme+6CH2wspkqHKsy7n5K4a1fYr9bIGZVNJBI5TMOtmWRmViMngnUEWOs1HPv4pjwZPA3NxBYU+ETFWQVIETryYEAqnp+4ktQitF2HROwfo7mcHA4gvbFlBbEwESWEwouLoi4NJcENVOzN07HsP2WC80zcfZr1ZEwd/XjKir6g/gWy2lOMSq30yVh/6wI/biAooEwGucTWMupuDwZxrYmJ2qHAkhkVU4XySjyCVsYVSTgT8qaQPuKhOrZFMx2AQYKNnTzuPI+iu55AZZWN3Y2OnCklwMvyrKOTyvy4Zch7OnmME0dZlhKKbBRLyp7OBhaPDDedqH0jgtFN53QX3NAf8OJmgEefIoE4pLKnR4Po6DDh/O2EDi6MoaVaBbVj33QN6/ARFmNFGygzMZmJ4wdbpwdDSLJjkC+1qaFBIz3vShs9eD4Cx71b8I49ZxDIQUZSaCMOl9KJZs7vSh+RH4PvGij47BY7RoXo9nYvsEAjC1uLeMOalIBZTNcd8DU5ka5NYi9kxHsHvqF4l4eh0aCWI7n/lyjNkh930VYWNYOD4pa6LxEE5Va8tSPMhIofx1BCR2xYjiIEfcaheQHKT+NFklW7f00YQcGeZie+FBIpbLV3MfD/CqIXRNh1EzFMOrPIKdsGuUNMAPNeNfXSFa4Nyegjpp0dCyEY/YwLtDQPPyRhiMp//sxbYA2tOdMU2ilDvPsiukpy2JO/c9z1ul+A2f95+V9hJAdAAAAAElFTkSuQmCC" InformativeScreenshot="c92e7bd95b3c97e3795710a93c1fb018.jpg" Reference="l1kQt_B9yUeUxyqW0zcptQ/BHEPycIYl0aHzG767WXDvw" Selector="&lt;html app='chrome.exe' title='Not found' /&gt;" Title="Not found" Url="https://sapui5.hana.ondemand.com/#/demoapps.html" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+      <ui:ForEachRow.DataTable>
+        <InArgument x:TypeArguments="sd:DataTable">
+          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">DataTB</mca:CSharpValue>
+        </InArgument>
+      </ui:ForEachRow.DataTable>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>

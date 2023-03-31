@@ -1,0 +1,12 @@
+﻿{
+  "Id": "EkNgCxM8602-ca6hJx5vXw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/70lDBZXJtUS4BOZdKDIlKw",
+  "Name": "Chrome: Shopping Cart",
+  "Type": "Screen",
+  "Created": "2023-03-29T11:21:40.1648448Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T11:21:40.1648448Z"
+}

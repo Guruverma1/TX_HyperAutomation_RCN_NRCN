@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e_mkt-Z9JkSpGfctx-KcKA" Reference="l1kQt_B9yUeUxyqW0zcptQ/IlfSy_tfvk6-N1ldLdZczw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://demo.nopcommerce.com/" DesignTimeRectangle="884, 79, 33, 45" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl class='ico-login' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ico-login' tag='A' type='' aaname='Log in' check:innerText='Log in' /&gt;" Guid="5a1b38e7-3a96-43fa-aa74-7406b15af141" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAxCAYAAABd2WCOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE/SURBVFhH7ZM7boNAFEXfppIiq0mk7IFNeDbBsAxPywLALRUVLikpuGGGjyfIiR6fRK94R7qSB+ZzuBh6eX2DtND7xyekhdI0hbRQnueQFiqKAtJCdV1DWqhtW0gLdV0HaaG+7yEtBIGoFBeV4qJSXFSKi3ypMkuQZOU0OpmbRXJxaKbhb/yf1Ab4UncHkwz3QyziWc3VTNcNbDb8frZH1JQ/x2T2sd+qQaZUCTssNtdxaZg3bxRkDdw93AnzOFLLg00Pa29+MMKTCgujdiKR0FK0Zj1eWEstcxq4yx4pv+G3V+YbGaXWa7hSc+v7pf6gqeNSoZlz/1PbpPymceYDwuHz9Z++Pgt3dlPHGQ94HLiP41LhI5gbHPL09W/j5KbOQaW4qBQXleKiUlxUiotKcVEpLirFhaqqgrQIbAr4Ak8llxsdlj2iAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="09ab965739760df7d43e2fe8c320739a.png" xmlns="">0ZdZJ_XKL0EWng5BzFmvTHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

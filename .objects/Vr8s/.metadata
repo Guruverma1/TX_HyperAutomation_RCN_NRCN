@@ -1,0 +1,11 @@
+﻿{
+  "Id": "Vr8s5nNU3kuYe3elU89UHg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/Vr8s5nNU3kuYe3elU89UHg",
+  "Name": "AmazonAddToCart",
+  "Type": "App",
+  "Created": "2023-03-20T08:18:17.678676Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T08:18:17.678676Z"
+}

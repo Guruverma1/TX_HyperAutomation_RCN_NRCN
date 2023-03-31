@@ -1,0 +1,12 @@
+﻿{
+  "Id": "XkJQpFdsGEOh3SGmC2rMKA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/XkJQpFdsGEOh3SGmC2rMKA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/4SjYkz8bS0qcu43s6CZUAA",
+  "Name": "Chrome: OpenCart_Your Store",
+  "Type": "Screen",
+  "Created": "2023-03-27T11:51:32.3687966Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:51:32.3687966Z"
+}

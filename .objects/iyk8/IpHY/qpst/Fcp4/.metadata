@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Fcp4s9sb-ECzGeKKW8LqAA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/Fcp4s9sb-ECzGeKKW8LqAA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/qpst7DUzHkKAvNPj0gzy8g",
+  "Name": "unchecked",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2023-03-27T10:32:42.9849409Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T10:32:42.9849409Z"
+}

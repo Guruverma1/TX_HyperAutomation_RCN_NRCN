@@ -1,0 +1,101 @@
+{
+  "name": "Tx_HyperFramework_RCN_NRCN",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Database.Activities": "[1.6.1]",
+    "UiPath.Excel.Activities": "[2.16.2]",
+    "UiPath.Jira.Activities": "[2.2.0]",
+    "UiPath.MobileAutomation.Activities": "[22.10.2]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.2]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]",
+    "UiPath.WebAPI.Activities": "[1.9.2]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Components/NRCN/nopCommerce_AddToCart.xaml",
+        "Components/RCN/Login_nopCommerce.xaml",
+        "Components/NRCN/AmazonAddToCart.xaml",
+        "Components/RCN/Amazon_Login.xaml",
+        "Components/RCN/Amazon_Logout.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cd3ece87-fc77-496d-972b-7bda6acbb979",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\DesktopOrder_Scenario.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "eda22e7c-b56e-4509-be09-1fc5645e83da",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\JsonAPI.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ce9460e0-5501-4dd3-8267-9cf8200a0c20",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\Main.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4cfba14c-316f-4fbe-bdb3-a12cedf01a40",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\OpenCart_AddToCart.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ed63db9a-0c0b-4a47-9993-f175e3abecc7",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\SAP_Application.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6ac2f0c7-42c0-49f4-a2ae-04cb218757ae",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\Android_Eribank.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

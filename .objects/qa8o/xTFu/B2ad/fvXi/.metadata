@@ -1,0 +1,13 @@
+﻿{
+  "Id": "fvXi9VuR4kSL7pQCeoD55Q",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/fvXi9VuR4kSL7pQCeoD55Q",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/B2adsXepvE2_MnmGxeIYvA",
+  "Name": "SideBar_",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2023-03-20T08:11:57.3542155Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T08:11:57.3542155Z"
+}

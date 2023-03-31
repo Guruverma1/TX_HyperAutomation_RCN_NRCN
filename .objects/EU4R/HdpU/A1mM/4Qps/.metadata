@@ -1,0 +1,14 @@
+﻿{
+  "Id": "4Qpstyn3-UGszSNWZdiIcg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/4Qpstyn3-UGszSNWZdiIcg",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/A1mMMrdtXkewmGGKhRJtTA",
+  "Name": "Enter_Username",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-30T07:16:40.8825675Z",
+  "CreatedBy": [
+    "UiPath.MobileAutomation, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T07:16:40.8825675Z"
+}

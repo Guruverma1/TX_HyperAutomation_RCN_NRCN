@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LzLW95CO10WpWSSCQGqt5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251/cart" DesignTimeRectangle="706, 429, 64, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Delete'" FullSelectorArgument="&lt;webctrl ui5-role='button' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-role='button' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBarChild' aaname='Delete' check:innerText='Delete' /&gt;" Guid="5965ed87-93a1-49b9-ad94-6d2161912f87" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec16e342ee016cb30aa245f90287d7a6.png" xmlns="">0_LCibebtI0SyM3Uvse0liw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

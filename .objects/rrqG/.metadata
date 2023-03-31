@@ -1,0 +1,11 @@
+﻿{
+  "Id": "rrqGwjTA3EWYZjZpdws5AA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/rrqGwjTA3EWYZjZpdws5AA",
+  "Name": "OpenCart_AddToCart",
+  "Type": "App",
+  "Created": "2023-03-27T11:57:57.880315Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:57:57.880315Z"
+}

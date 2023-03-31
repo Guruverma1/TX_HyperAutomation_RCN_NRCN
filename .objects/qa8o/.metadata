@@ -1,0 +1,11 @@
+﻿{
+  "Id": "qa8orfWoBkKUAs_8nbydqw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/qa8orfWoBkKUAs_8nbydqw",
+  "Name": "Amazon_Logout",
+  "Type": "App",
+  "Created": "2023-03-20T08:11:57.2327024Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T08:11:57.2327024Z"
+}

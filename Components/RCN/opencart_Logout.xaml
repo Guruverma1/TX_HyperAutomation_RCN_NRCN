@@ -1,0 +1,170 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="opencart_Logout" this:opencart_Logout.value="Account Logout" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="verify" Type="InArgument(x:String)" />
+    <x:Property Name="value" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:opencart_Logout.verify>
+    <InArgument x:TypeArguments="x:String" />
+  </this:opencart_Logout.verify>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>760,1459</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="76">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="84">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="opencart_Logout" sap:VirtualizedContainerService.HintSize="652,1394" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="valu">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Account Logout</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome: opencart_Logout" sap:VirtualizedContainerService.HintSize="610,1306" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="d64ebde6-66ab-4ba9-918f-0b1bdf8e2c01" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="576,1089" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'My Account'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=checkout/cart&amp;language=en-gb" ContentHash="NWv_quxbF0aRPmVi_h2GMw" DesignTimeRectangle="854, 90, 72, 18" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'My Account'" FullSelectorArgument="&lt;webctrl aaname='My Account' parentid='top' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='My Account' parentid='top' tag='SPAN' type='' class='d-none d-md-inline' check:innerText='My Account' /&gt;" Guid="a80f5476-9e37-43e2-85ba-ea64b27cb6d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAWCAYAAABqgnq6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANfSURBVFhH7VY9b+MwDL2frz8Qaw+cuHuKJHZ3D23zNdbTNWiSmzwaDlzkHSnJtiSnuLhdiqsNPKARJYp6fCT7K89zDLgdA2E9MRDWEwNhPTEQ1hMDYT0xENYTFmEZZiMBIcZIrQ01svsR2QTGadd2K9KQ/IfpVdt3QxqOMHvprluEvWIpI0R3ApMOKRnmgYSUAtNn33YjXmYIJPkQk6sJ+V7IsKBYl7+7No8wiTiJICJPBWkIcbfFlshUhKVjiNEMmbPnypqFbEFkJSecHiSC+8yzpxiTelnBCpYKlSobW6v+WvE1bOUrm6dk9tPuofso1tTxUfv2YhGu0jqELd82iETgbEojgWi9J9YNYecjEto79/bI5IDC/HaRIhQRtlWB4i2BDOYWsboVyIc/aL73UtnUw2WC1vKOks9wcsjfzqziRD6th73GkpK+Mv41VhRfWx0rTImMID4ZB8COxKBJLumWHXEgQfml74KqaP10Cftd4kgqkAujAlVKCY5ntteXFjgkFNS0zmKKCV/wVpjfHtIJKXSjH1tUSqlhne2XOT1Wk+me4zZAidpUnSSo5DwctT8G+WTl1jHfRpgbb7mmypILk0htv6kkeZNSgQiVRHUpsXJswmhPtaUsmH6kCNk6mbDBD2wlblCX/eOUAo2x987k+ZMKOt7769xfiMiVS7Am6cn6+1+ERVjb8T5zHEu8NvYehOXFgUqOm79u9joTLmEs3Y0ZELpkdRl1YBRqFRx9LHlD9j6m5Ezx5J/L94j5vkd/vcCa7pVLtw8ySTLZN3+7hGmSXcKmWDV2wpcIo6CqDUmUldAoxyeMZMxKjMZUjhE253bdRqtQe12TrZq/SU53EJiyD7qDRJWPqQC1xkmxSqxYsd2axjy06C39CLuWrA8JI5y5+dvK6RJWP9bpJw642V/vbYps9WhKzoUVZ5WrmXBFddHNuLGZSXZ+B7b0QOtMtLWaM9mdc0GMHfW42wnTfVyf/3BKcuD2ROBpQXOpUQ7b7d8M3Wc+bPbKhztlGlCjvtRTz9zVfGZKMkrX0CaGSbM+Ny7v3KVCScG3e/g+yxeD/dG+uhI4WeawE79FWH9k9wFlJcHhGiH/KT5HmPo/iOVK/wtZWfkJ+BxhTTl4sv4B+FJJ/kQMhPVCjr+UVvJqI1UNewAAAABJRU5ErkJggg==" InformativeScreenshot="97c5752155b3521c94f9fc91d0df9b91.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/V66MASzbVUWVE8mKxQPeGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="click on my account" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Step 10" Status="Compare" TakeScreenshot="True" />
+            <uix:NClick ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=checkout/cart&amp;language=en-gb" ContentHash="gkqdBRKnckyYWQApJW7gyw" DesignTimeRectangle="840, 231, 158, 28" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' class='dropdown-item' parentid='top' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' class='dropdown-item' parentid='top' tag='A' type='' check:innerText='Logout' /&gt;" Guid="5ab68c1f-c57e-4578-a245-7c8cda19d8ec" ImageBase64="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" InformativeScreenshot="fb40075664084e3ffc00d67b34c3fba2.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/-rBtcJzIHUqI_sC3uge9VQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="successfully logout" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,133" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="step 11" Status="Compare" TakeScreenshot="True" />
+            <uix:NGetText DisplayName="Get Text 'Account Logout'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d64ebde6-66ab-4ba9-918f-0b1bdf8e2c01" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=account/logout&amp;language=en-gb" DesignTimeRectangle="125, 319, 831, 40" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Account Logout'" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Account Logout' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' /&gt;" Guid="e18a3c2b-2e25-481f-ad45-74fc62136c60" ImageBase64="" InformativeScreenshot="c6ac417bebe8b64991157937b43973cc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account Logout' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">verify</mca:CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">verify</mca:CSharpValue>
+                </InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">value</mca:CSharpValue>
+                </InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="Y3iHykVlM06unR3HWlcxIg" IconBase64="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" InformativeScreenshot="04488bcc7a511c6a50401c7d7f778aa1.jpg" Reference="l1kQt_B9yUeUxyqW0zcptQ/3eYEqiHAGUOXHaLn0NogDg" Selector="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" Title="Shopping Cart" Url="https://demo.opencart.com/index.php?route=checkout/cart&amp;language=en-gb" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

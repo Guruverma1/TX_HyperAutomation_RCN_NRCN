@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2jeLEOTDq0iKc9E-UuPUOw" Reference="l1kQt_B9yUeUxyqW0zcptQ/vdE5DCUEhky-lSTwZnQTxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/#/demoapps" DesignTimeRectangle="56, 536, 164, 33" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Shopping Cart'" FullSelectorArgument="&lt;webctrl ui5-class='sap.ui.documentation.TitleLink' ui5-role='heading' ui5p-text='Shopping Cart' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.ui.documentation.TitleLink' ui5-role='heading' ui5p-text='Shopping Cart' tag='H1' type='' class='sapUiDocTitleLink sapMTitle sapMTitleStyleH1 sapUiSelectable wrap sapMTitleMaxWidth sapUiTinyMarginTop' aaname='' check:innerText='Shopping Cart' /&gt;" Guid="c3c08db6-a592-444f-9586-39970681e1f0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Apps - Demo Kit - SAPUI5 SDK' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c3bcfb52aa75fd2cf1495161226da7fb.png" xmlns="">05c66Zlren0ix3mjESGw4mA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

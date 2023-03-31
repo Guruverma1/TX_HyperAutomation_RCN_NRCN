@@ -1,0 +1,13 @@
+﻿{
+  "Id": "T7txiecvhkaBWxltnu8hfw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/T7txiecvhkaBWxltnu8hfw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/8lkETTIlpku6HnuidybBPg",
+  "Name": "Laptops & Notebooks",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-27T11:57:58.0071186Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:57:58.0071186Z"
+}

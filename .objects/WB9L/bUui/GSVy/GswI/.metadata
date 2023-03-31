@@ -1,0 +1,16 @@
+﻿{
+  "Id": "GswIUS9_UkWTme4hc1L0MQ",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/GswIUS9_UkWTme4hc1L0MQ",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/GSVyDzDDbUi6hHRBoryEIA",
+  "Name": "Zip",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-15T12:16:02.8848572Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:16:31.826434Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

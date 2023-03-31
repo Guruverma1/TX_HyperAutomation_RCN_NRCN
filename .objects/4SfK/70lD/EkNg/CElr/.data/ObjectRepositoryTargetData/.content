@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AZF0qd2aPE6qJ2VQtUlMmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" DesignTimeRectangle="478, 399, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.INPUT'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCountry' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--invoiceAddressCountry' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput' aaname='' /&gt;" Guid="4a47c1ed-bcb1-4a45-931e-f0a2ac91561f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a1f00c627bc7529ae42aae8622ae3eaa.png" xmlns="">0QYmcnaGyfEqYdyGyU1VqBQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

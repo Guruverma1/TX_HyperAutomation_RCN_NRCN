@@ -1,0 +1,12 @@
+﻿{
+  "Id": "D8KOi_wxyUeF1T7LaOlGAA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/D8KOi_wxyUeF1T7LaOlGAA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/W_SlyP6X1kO832JjcrnFYA",
+  "Name": "Chrome: Amazon Sign In",
+  "Type": "Screen",
+  "Created": "2023-03-20T07:40:54.1908227Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T07:40:54.1908227Z"
+}

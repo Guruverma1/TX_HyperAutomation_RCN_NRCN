@@ -1,0 +1,16 @@
+﻿{
+  "Id": "EMkrHOBsK0mryGyex6Sg-w",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/EMkrHOBsK0mryGyex6Sg-w",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/GSVyDzDDbUi6hHRBoryEIA",
+  "Name": "Enter_CustomerName",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-15T12:12:43.5324593Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:13:53.3774507Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

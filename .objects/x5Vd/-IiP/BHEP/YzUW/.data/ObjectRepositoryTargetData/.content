@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GlnlK_toHkGiTk_XU4fJ8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/#/demoapps.html" DesignTimeRectangle="415, 85, 108, 44" DesignTimeScaleFactor="1" FriendlyName="'Demo Apps'" FullSelectorArgument="&lt;webctrl id='sdk---app--tabHeader' /&gt;&lt;webctrl id='sdk---app--demoAppsTab' /&gt;" FuzzySelectorArgument="&lt;webctrl id='sdk---app--tabHeader' /&gt;&lt;webctrl id='sdk---app--demoAppsTab' tag='DIV' type='' class='sapMITBItem sapMITBItemNoCount sapMITBVertical sapMITBFilter sapMITBFilterDefault' aaname='' check:innerText='Demo Apps' /&gt;" Guid="a9d3fed4-d2a9-4e22-8110-523d35f94187" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Not found' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f0b705f0c24c90dfe50237db7ae924c.png" xmlns="">0dpS97jempkWdTbY1srHRww</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

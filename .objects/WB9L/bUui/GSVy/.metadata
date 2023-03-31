@@ -1,0 +1,15 @@
+﻿{
+  "Id": "GSVyDzDDbUi6hHRBoryEIA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/GSVyDzDDbUi6hHRBoryEIA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/bUui_mZbb0iqi0NIIpIEww",
+  "Name": "Desktop_Neworder",
+  "Type": "Screen",
+  "Created": "2023-03-15T12:09:48.880985Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:10:07.9371423Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

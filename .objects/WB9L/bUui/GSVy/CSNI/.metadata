@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CSNIrvgb20CtZnBAGtu45Q",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/CSNIrvgb20CtZnBAGtu45Q",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/GSVyDzDDbUi6hHRBoryEIA",
+  "Name": "Click_On_OKButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-15T12:18:31.7387671Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:18:55.1362186Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

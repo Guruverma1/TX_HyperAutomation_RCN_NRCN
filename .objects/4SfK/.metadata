@@ -1,0 +1,14 @@
+﻿{
+  "Id": "4SfKycPveUuga1IToFuhcA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/4SfKycPveUuga1IToFuhcA",
+  "Name": "SAPApplication_NewTab",
+  "Type": "App",
+  "Created": "2023-03-29T11:21:40.1115587Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T11:23:05.6550546Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iV0mGd7xzUKAlKRULggwtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" DesignTimeRectangle="478, 367, 836, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'SAP.M.DATEPICKER'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardExpirationDate' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardExpirationDate' tag='DIV' type='' class='sapMInputBaseNoWidth sapMInputBase sapMInputBaseHeightMargin sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="3f4526c0-1ce7-4a42-81a7-5c1669270a66" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="16fba5c35290834980182fad7e8e2576.png" xmlns="">0MyxeE860ykyuG4P9XiQ-Qg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

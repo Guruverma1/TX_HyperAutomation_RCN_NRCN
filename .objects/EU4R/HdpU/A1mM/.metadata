@@ -1,0 +1,15 @@
+﻿{
+  "Id": "A1mMMrdtXkewmGGKhRJtTA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/A1mMMrdtXkewmGGKhRJtTA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/HdpUDi2sV0avDak1Pzwb1g",
+  "Name": "Android_Login",
+  "Type": "Screen",
+  "Created": "2023-03-30T07:14:21.3024534Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T07:14:45.7278408Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

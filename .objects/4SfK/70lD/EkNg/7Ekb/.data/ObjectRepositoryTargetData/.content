@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t8Fhcd71hUGL80Ay9A8rSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT/product/HT-1251/cart" DesignTimeRectangle="1334, 220, 16, 24" DesignTimeScaleFactor="1" FriendlyName="'SAP.UI.CORE.ICON'" FullSelectorArgument="&lt;webctrl ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://decline' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://decline' tag='SPAN' type='' class='sapUiIcon sapUiIconMirrorInRTL sapMBtnCustomIcon sapMBtnIcon sapMBtnIconLeft' aaname='' /&gt;" Guid="6604a71d-c2ab-41d3-acd7-12c0e64dc1a8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="47d5adb3745479fde96396d29b04ffdd.png" xmlns="">0Lb-xpJk5VkedVKLJpyQOmg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

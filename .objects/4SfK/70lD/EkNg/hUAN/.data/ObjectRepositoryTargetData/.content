@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CWbfLRPoyUOifJMeFaExCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/category/LT" DesignTimeRectangle="8, 119, 434, 135" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Astro Laptop 1516' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Astro Laptop 1516' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeInactive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMObjLItem sapMObjLListModeDiv' aaname='' check:innerText='989,00&amp;#xD;&amp;#xA;EUR&amp;#xD;&amp;#xA;Emphasized&amp;#xD;&amp;#xA;Object Number&amp;#xD;&amp;#xA;Astro Laptop 1516&amp;#xD;&amp;#xA;Ultrasonic UnitedAvailable&amp;#xD;&amp;#xA;Entry validated' /&gt;" Guid="f02fab96-b7b2-4f7a-86d0-50ccdc4120c8" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="755d86a0cd692f4d82881d506828a0b2.png" xmlns="">0C1fDJ0lpg0WOBY_eJvl6EA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

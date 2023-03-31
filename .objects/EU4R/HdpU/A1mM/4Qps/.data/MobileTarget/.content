@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="JSdAymHfDUO-GNDhqX5WAg" DesignTimeRectangle="10, 154, 391, 48" FriendlyName="Set Text" FullSelectorArgument="&lt;mbl android:className='android.widget.ScrollView' /&gt;&lt;mbl android:className='android.widget.EditText' idx='1' /&gt;" FuzzyAccuracy="0.5" FuzzySelectorArgument="&lt;mbl android:className='android.widget.ScrollView' id='com.experitest.ExperiBank:id/scrollView1' accessibilityId='' text='' /&gt;&lt;mbl android:className='android.widget.EditText' id='com.experitest.ExperiBank:id/usernameTextField' accessibilityId='' text='Username' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector" Text="Username" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0J5v7-oEZIE-HGC17q60jyA</imageRef>
+</Target>

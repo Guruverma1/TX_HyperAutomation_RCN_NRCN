@@ -1,0 +1,13 @@
+﻿{
+  "Id": "F-3jFIsdWUW0_ZxwNBVmDw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/F-3jFIsdWUW0_ZxwNBVmDw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/8lkETTIlpku6HnuidybBPg",
+  "Name": "MacBook Pro",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-27T11:57:58.1087961Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:57:58.1087961Z"
+}

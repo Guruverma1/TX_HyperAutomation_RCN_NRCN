@@ -1,0 +1,12 @@
+﻿{
+  "Id": "mRBzXziXj0-OncW2vgioFg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/mRBzXziXj0-OncW2vgioFg",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/M0PeID_1CUeeZv48BeRrUw",
+  "Name": "Chrome: Online Shopping site in India: Shop O",
+  "Type": "Screen",
+  "Created": "2023-03-20T08:18:17.721296Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T08:18:17.721296Z"
+}

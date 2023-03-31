@@ -1,0 +1,13 @@
+﻿{
+  "Id": "crBayDHLEU6GNtg8VQYYmA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/crBayDHLEU6GNtg8VQYYmA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw",
+  "Name": "SecurityCode",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-29T11:58:06.1580053Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T11:58:06.1580053Z"
+}

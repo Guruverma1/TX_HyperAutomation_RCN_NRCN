@@ -1,0 +1,13 @@
+﻿{
+  "Id": "CElrTd0F-0u6qRShDs0xQA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/CElrTd0F-0u6qRShDs0xQA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw",
+  "Name": "Country",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-29T12:00:31.0800619Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T12:00:31.0800619Z"
+}

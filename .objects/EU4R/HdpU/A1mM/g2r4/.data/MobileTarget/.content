@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="aBBdbA3RS02ySfr2W8brpg" DesignTimeRectangle="125, 270, 160, 48" FriendlyName="Tap" FullSelectorArgument="&lt;mbl android:className='android.widget.Button' text='Login' /&gt;" FuzzyAccuracy="0.5" FuzzySelectorArgument="&lt;mbl android:className='android.widget.Button' text='Login' id='com.experitest.ExperiBank:id/loginButton' accessibilityId='' check:text='Login' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" Text="Login" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0oTm6gO1OMEO4Z0NGkinoWQ</imageRef>
+</Target>

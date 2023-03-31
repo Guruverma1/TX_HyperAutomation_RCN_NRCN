@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BAV8FFNsakeeR8zIE74E-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="115, 194, 352, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Customer Name'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='Customer' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='Customer' /&gt;" Guid="0182c664-3827-4466-b18f-dddd6fab992a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWQAAAAYCAYAAADNjIcuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVHhe7dQtroNQAITR7p0dsD8sIPhLECQIbnMrniF5rnTEOcnnRs9r27YiSfp9DlmSQvo75HVdyzRNkqSH6vu+jON4P+R5nst5nuW6LknSA+37/jnl2yHXt64DAJ5xHIdDBkjgkAFCOGSAEA4ZIIRDBgjhkAFCOGSAEA4ZIIRDBgjhkAFCOGSAEA4ZIIRDBgjhkAFCOGSAEP8ectd1n1OWJH2/+rnDMNwPeVmW0rZtaZpGkvRA9XPr994OWZL02xyyJEW0lTctfJp+toXS+gAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='OrderForm' /&gt;" SearchSteps="Selector, Image" Version="V1" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="19, 196, 93, 17" ElementType="Text" FriendlyName="'Customer Name'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label7' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label7' check:text='Customer Name:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAVCAYAAABWtYB0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG3SURBVGhD7ZbbrcMgDECzG/OwDLOwCYtkA25IsI2NoWnVB1fyx1FVIMb2gbTbvu/Z+C0mYQFMwgKYhAUYSoh+y9vG8VFf+/+I2Z81+RynY99BlYACfKxjKQf3BhEpZFfiupCTNv81oOFbdiGJsRUkfLJRC0qgpi8kIQV3JYe3QCF6tgZuznVL2gLbcbpNJ1UE7gfAvrAH4nNga6lZXYwSWz7P6qk5el8/y1wjodv7QIs5yEnNZyJ5KIGuqcJEAntennz5HeLU7xDnfBYLLkmT2DLHpItccH8HjeiLJgmxrnc5pHGTcL9DGsUc5ARrZD6Tfr7/JmDzmjF4TkhgTZdx2R68QW1hEGMICGeQhO5W1D20uLzBek5Daq80XvtNmEnAde3rp56uD0roTho8/1CCbGDzipH1PSGhy2dCL+EAT0FNovt3xJoJyVxzvCk80ZdeRw8k4LpBM+5IoPgFknDV0NR+Q4J8DWI+uFePKqGAIhropIsfWTbfFnRBp4IXqzYNkr0rQYtRGv/ETThhMvsaCrckHDmp+Yj1bT5DCcb3MAkLYBIWwCQsgElYAJOwACZhAUzCz9nzHwqczVsn+fGYAAAAAElFTkSuQmCC" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5cec570f20f384702ca95c81fb4e591a.png" xmlns="">0HePkr7ytI0yXkB0cR8A1cQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

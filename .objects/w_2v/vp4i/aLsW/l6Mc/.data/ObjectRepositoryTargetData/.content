@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0uBYjUTfpU-oAffk-pSq1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="56, 114, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'&amp;Yes'" FullSelectorArgument="&lt;wnd ctrlid='6' title='&amp;amp;Yes' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='6' title='&amp;amp;Yes' check:text='&amp;amp;Yes' /&gt;" Guid="0c711c76-84f4-4bdc-9424-bb71b3e5f728" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAbCAYAAAA9K9JnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVGhD7ZhBioQwEEVzrRwo58lpslG8gYK4khxAUVy4VqTGijqdGKdnpgU7jbV4tC0VF4//26ZY3/dAvAbJOwHJO4Enr+s6KMsSiqKAPM+JGa218bJ35cjDAZRW1zWM4wjTNN0e9NA0jfGyF+jIQ8Nt2x4+5O5UVWUaafty5GFEh2E4PHx30Aumz/blyTs6SCygH9sXyfsHJO8EwclTgoFQ63ctgXMJejcTCuElTwlgQplrLTlwqf2ZQAhP3qRAMA5y/pskOX5u9xgwZBWLoFxzjwlQzjOuIUB5a+KEmFlEPaq8F/oeaRtByjO/dXOiFmFW6lYeIt0kXk2Y8r6ru7/2WapLtbWwhS0J+/nFYVf5Wj5A3sxaY/flYNX5TdUNVN5nQPJO8FQebg1oq3IMenkqD/dVuLc6Onx3cCGK+07blyNv2yTjICVwAT1goH7dJCM4kGUZxHEMURTdniRJIE1TTxziySP+Dsk7Acl7mR6+ACHxy69GZOgiAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='orders.exe' cls='#32770' title='Confirmation' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e2723aac46eeaf0cc47de26ef960bd46.png" xmlns="">0nm4UYT9BoUaNeUgb7z3E9A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Id": "8lkETTIlpku6HnuidybBPg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/8lkETTIlpku6HnuidybBPg",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/B2JTXODlXEij6_WcfPR-OQ",
+  "Name": "Chrome: My Account",
+  "Type": "Screen",
+  "Created": "2023-03-27T11:57:57.953196Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:57:57.953196Z"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LxGds-Bf4EytFn6nt0MSLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark" DesignTimeRectangle="8, 423, 446, 32" DesignTimeScaleFactor="1" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Laptops' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Laptops' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeActive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMSLI' aaname='' check:innerText='Laptops&amp;#xD;&amp;#xA;11' /&gt;" Guid="37e0eb23-fa22-4af2-8b13-57423161e37b" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6b1e1d3bca8fdca11850b3fb1d51a37.png" xmlns="">0WDO2t2uiykuCobwMBsJfaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

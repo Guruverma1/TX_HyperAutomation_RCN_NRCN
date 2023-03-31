@@ -1,0 +1,14 @@
+﻿{
+  "Id": "EU4RWQjpPUK7VrN0MIv_4A",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/EU4RWQjpPUK7VrN0MIv_4A",
+  "Name": "Android_Login",
+  "Type": "App",
+  "Created": "2023-03-30T07:14:20.1186767Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T07:14:21.4015207Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Id": "iyk8Yo8QTU6r25gw3Yd8yg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/iyk8Yo8QTU6r25gw3Yd8yg",
+  "Name": "AddToCart_nopCommerce",
+  "Type": "App",
+  "Created": "2023-03-27T10:32:42.5364461Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T10:32:42.5364461Z"
+}

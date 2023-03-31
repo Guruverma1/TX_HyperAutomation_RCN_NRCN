@@ -1,0 +1,13 @@
+﻿{
+  "Id": "6X_rJuDhOkmvu2DCVjQxkw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/6X_rJuDhOkmvu2DCVjQxkw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/EkNgCxM8602-ca6hJx5vXw",
+  "Name": "Click_on_Delete",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-29T11:21:40.8295919Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T11:21:40.8295919Z"
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ZEb9oKJxKE2ioh3PgV00uQ",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/ZEb9oKJxKE2ioh3PgV00uQ",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/GSVyDzDDbUi6hHRBoryEIA",
+  "Name": "Enter_Street",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-15T12:14:09.8587574Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:14:38.8377835Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

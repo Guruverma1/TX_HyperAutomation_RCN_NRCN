@@ -1,0 +1,247 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OpenCart_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="DataTB" Type="InArgument(sd:DataTable)" />
+  </x:Members>
+  <this:OpenCart_Login.DataTB>
+    <InArgument x:TypeArguments="sd:DataTable" />
+  </this:OpenCart_Login.DataTB>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>718,3146</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="80">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="86">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="OpenCart_Login" sap:VirtualizedContainerService.HintSize="552,3081" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="OpenCart" WorkbookPath="C:\Users\Gurdev\Desktop\TX_Hyper_Excel.xlsx">
+      <ui:ReadRange.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">DataTB</mca:CSharpReference>
+        </OutArgument>
+      </ui:ReadRange.DataTable>
+    </ui:ReadRange>
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,2865" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,2749" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="user" />
+              <Variable x:TypeArguments="x:String" Name="pswd" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="434,132" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">user</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">CurrentRow["username"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">pswd</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">CurrentRow["password"].ToString()</mca:CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome: OpenCart_Your Store" sap:VirtualizedContainerService.HintSize="434,2489" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="8caa1224-fe9e-4078-8d77-f068effb52de" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,2272" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="358,85" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="OpenCart_AddToCart" />
+                    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="358,85" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="WebApplication" />
+                    <uix:NClick ClickType="Single" DisplayName="Click 'My Account'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8caa1224-fe9e-4078-8d77-f068effb52de" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/" ContentHash="C0VpQfk5bUGURfc38yJzXA" DesignTimeRectangle="839, 90, 98, 18" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'My Account'" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='top' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='top' tag='A' type='' aaname=' My Account ' check:innerText='My Account' /&gt;" Guid="6c39c31e-254b-4a42-b743-ce34db763c5b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGYAAAAWCAYAAAAy/emjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVGhD7ZfxS+NIFMfvzw/6Q3+QNtwiHFdrs4dyt6hoG+9YcSEsdWvrHcth2Strr2oPlyC6xtZWv/deZpLMTNK1LudSjgS+0ObNvEzm896bl+9830eu+VMOZk6Vg5lT5WDmVFPBDLptePse2t1Bpj3X8yoDTB+eU4BlWbEK5T10P5njcj2nUmC67vcalEgvdrvauFzPqxSYAycNJdTybzgxxibqYLPI48rwMuydrWLoo+ylbbPKq5D/ipdpmzd5lSI2j7NtsyoFpr2mwFBVbeCzMTbRCWq2A+elhdXU5newXbJh2xaq70zbjDreRMkmH9ZqJvj5Ugc7tNbaxyzb7EqBGb7/GYUUmALWfr/CpTE2EYOxUXcdWI4R1V4F1ss22gQtBOOVYRU30dHGZNxT1NkhKO45zndtlLY6ht1DWV2rklVhlsW2JJujDI6kZnJoMzKT/SRj6Hm0Vk/zEfk21mKZmTPAn69foepUM7SOeqsfj02Bubyd4OKtg6UF6XxhCSv7fUyGV9o4XQJMrd+CY5W0xXhUGp3DHkWRBDM6g0tjt40xtnuKQP7X5aFiOWiPAwR9F3ZpWwEoSqi9O0B8TYahLdxg20VimWDIczgIyN+RvItz8qls4EndpuBqSv9CTVpfku1NVGlfSvVz6QA4oqATMIf0lCPaAxsUR3Q9YBwkfnz/An/8sqSAU1VA9eCfeGwKjO9f4mY0IZfA8OozxvTr/i74QrawJJiPQ5xRVNs7MqrDEuTibMT26OUCnLr08tUoKj2s8ov0A/nfkLdKGdcSmxqMw8yrRNF7vE2bKqDp87h8UkC0xinYYRDsngl/LPLJmRiteTYw+nqHh1Qp7B0ZMMKeXcqucDu5xvtXJpwCVt5eYDK6jscmYD6doLFexKLMlMWlZaz8VMHy0qKYvLCIovNmStscgfFFVFuVMLVFCeJMUMHQmHGbokqeF+HGt43ISsQbqb8EKSqXjSptSB09Y47vH4SbU++Z97n+E7CmDlLAOFB+PwbGwaG63ne8jppsjr4EhnWNoQZHQLkf3WjBL8EM0DC+Xaap4DQwUBwIJWD84JRKFTcB4tAXkaWD4ZRvyUZBlDpRflKSGacUKrq4VEiovToFQRUH5jy/hzo/r2HeD3BIz7Vr+jnFMGy3F//WwQiYOpgqmrGd9CQwLAln4wc4GVBYAsxgHz9mQMjWC+ye6E40MPTy4xalNo+NM8EEQ+nPmeWUqYw5aI2S+6qSjFPvC6hhEyCDIN0QyHJZSjcUYdmRGR3eY/hKaQqabFe6P25e6F2eBiYrKEwxnHsqX2koLAHmrxpFnglgmghA13SkgiGNuAlQMyENJtpUrd5r4kM/++wJoYabS0HwwBmkrE92VMH4QRzKsU12TnR+ok0bqcxx2sohTXZtXqmOIzqDZgcjzlkx/+u/ZwSYv399GphUmvIGqR0IdyfUB8WZwHb1P0ucA1MP/dCH2dVI0YH9EHVZ8lnxJbsy1lA3JAHAcJRLX5cx72GMIS0+GcPPU3yx2B+NizKbg0JOnnp2PiYB5uYSH/Y2sLa+9qg29j7g8isfpqqzVaIoc3H6H/j6P0oe/te4vaM4mMygu1tcG06epPA7gjOPviWUKMulS4L5horLiFEOcmn69mByzaQczFzKx7+eI+UlqMOexAAAAABJRU5ErkJggg==" InformativeScreenshot="a64881fb4025d075cbe9a68c0b3d1a99.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/SIMhBML5yEC9bWwxJK9_gg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Your Store' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Click on My Account" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="step 1" Status="Compare" TakeScreenshot="True" />
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/" ContentHash="rPlNL_tOU0udNss1YK8GkQ" DesignTimeRectangle="840, 147, 158, 28" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl aaname='Login' class='dropdown-item' parentid='top' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Login' class='dropdown-item' parentid='top' tag='A' type='' check:innerText='Login' /&gt;" Guid="adf7ef64-5e09-436d-927e-5576c1f9c4bc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKIAAAAgCAYAAACRiqPIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN4SURBVHhe7ZnLSxtRFIf7r/gIJr4yvsYHRqsiWVRcpBRqV4oLXSldSIWKgqKQ4MKFi4HsBBeBbCQgJSASkDQLQxYGQSQQTEFIoBBBmIXw670zNzYZrXWh82jPB5fk3pzJbD7OuffcN2BcXFzwD4Iwnb6+PoyNjYFEJCyFizg6OkoiEtbS29uLkZEREpGwFlmWSUTCeriIw8PDJCJhLSQiYQu6u7vh8/lIRMJaSETCFnR1dWFwcND5IpaPViBPKkirYoFwFJ2dna8g4mkIda45RK7F3ATK8RW45RCSJKIj6ejowMDAgPNFJJwNiUjYAkmS0N/fb5GIxRTCS1OQvR4W74HXv4DNWA4PqqshrnaEkOYh0bn77zoZbLokbGfYbycK5v2yHi+/w3wwgas7EUbYAi4iv282X8TrGGaYWOPL+0jmSij/LCAdDeE9XwtmfsuoZrDtZ2vrTJ5bNr9TUTxVtLjF+I0ew3hcRPbcZADytIKDswJ7RwmXRzvas0PV7yAsp729XbtvNllEFcl1CXUf9nFpyEzq9xCGXFPYy4sF7b+W8K0s5oLkFstun+OoLP9JxLq3CrKGdzyMJayGi8hvV0wWUZfkU6Qg5lXcsd9YxprYy+lz7b82cGxIX88VcUg5F/MqnpOxCVNpa2tDT0+PySJeRzHDJNk8FfMaSojMMslY6dRQU1jl5ZqXZiFj+WyflXUJi4d/L80z0ZKYV0Ei2o7W1labi8jJx/CF7RMrBxR+qNk9qRWMRHQ2LS0t2u2K6aV5m2W5Z5VmRjYcwPhWCuUnTrokorOxSEQV6eD444eVxAbc1YcVkSEnwo/s9aogEZ1Nc3Ozds33CiIGsBlLIXliGJmC3ja5ZaKwcuudVnAs2jfZmN5aqWnfMIrxJciiLN8P3g/cTaEoRCYRnQ0Xkd+uvIKIBnEqYzaKoghD+RyRtacb2leHK5jwTWPXKHVF2rBewklEZ+PxeLSm9suK+FKIE/NqwtC7EWQVVt6rxSYci9vttrGIxdgTp2sVx8ssk64lajIo4Uyampq0prY9RWQHlYM5Ce6PO0jmb9g+Uox8BntfA3B7WXn9IUIJR2NzERm3ORwEF9g+UbrfZ3r9AcwHo0jTHu+fweVyaU1t+4pI/BeQiIQt4CLypjaJSFhKY2MjiUhYT0NDg9ZLJBEJS6mvr2cievAL7geMDVk12XgAAAAASUVORK5CYII=" InformativeScreenshot="cdd08f2331d6f22dfa8bc8e2e0998837.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/gvRiqwvPA021ATiqTOD2hQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Your Store' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Click on login" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="step 2" Status="Compare" TakeScreenshot="True" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'E-Mail Address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,217" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=account/login&amp;language=en-gb" ContentHash="or8CZO4pKkaPZzhWyUluxw" DesignTimeRectangle="569, 447, 370, 42" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT input-email'" FullSelectorArgument="&lt;webctrl id='input-email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='input-email' tag='INPUT' type='text' class='form-control' aaname='E-Mail Address' /&gt;" Guid="6d31c485-a836-4e7b-bae0-ac2eebebc918" ImageBase64="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" InformativeScreenshot="fe392f0c4fd3f2e441381297bd575e92.png" IsResponsive="True" Reference="l1kQt_B9yUeUxyqW0zcptQ/eLrIWnOo2EGwDKa5SIzVPQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account Login' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="569, 412, 83, 35" ElementType="Text" FriendlyName="'E-Mail Address'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='col-form-label' aaname='E-Mail Address' check:innerText='E-Mail Address' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFcAAAAnCAYAAAB66tStAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJASURBVGhD7ZbNTsMwDIB52j7G+hhR32N9jYoD4gDiwIHtgJC4gLhUJk7zY3ttWuh8mfxJldakseMvabo7MNQwuYqYXEVMriImVxGTq4jJVcTkKmJyFTG5iphcRUyuIiZXEZOriMlVhMg9QX9ooGno5WCIvYzBhX4303k6tr6vhf4cGzYxgFvKFQlxD72fZQ2soZIb593VslwXIXejFD/J1j97OdEpBvatx0Gh6bk1uRjXgevW4t6I3KbrQ8Fsqrl9Y5zMitxzDy1KwUU91vbuzcgdwqtKix06PCpEHBRDjpryPBValzvFDb/AiaNhOoZifNzdrAaMW3K7rsjFcdNcsa+MwVw5HlkIlgdjha40Pl28hvqZu7TKaQeguFxsKry2SEtC6W8J7yuiPWHhyLhwz0XJxady5bdBbpZyn2oTrLxJm3ZuWc3Yn18vMiYnEnHEzi2ru1Eu5mLj/UUE8eJo7pmYed5LY0Uekis54B9xzIHt83PfdSwgaZJD/tjIAmnMJaEzIiIlbqI8e325Mtclf5G8W24OnF8bEke+tmEXpnta/IwIhB07BSwwFLfzWOByp7b1v3seX4cci8iNUD9z5wpGmFxZBF+kMOEUj/3DWJc7JyCA+aMEFt+39azAuPDxckcvvyIXSTszjwmP8zjZS9gspJ04QYhc49qYXEVMriImVxGTq4jJVcTkKmJyFTG5iphcRUyuIiZXEZOrCJP79f0DL69vcP/4DMPDk107rywXxaLU949PGMcxthr/B+AXLkw8eijLaoIAAAAASUVORK5CYII=" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">user</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Enter user name" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="StepStatus_3" Name="step 3" Status="Compare" TakeScreenshot="True" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,217" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=account/login&amp;language=en-gb" ContentHash="x4i65QNcckKxFbPeUem98Q" DesignTimeRectangle="569, 540, 370, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT input-password'" FullSelectorArgument="&lt;webctrl id='input-password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='input-password' tag='INPUT' type='password' class='form-control' aaname='Password' /&gt;" Guid="f95acaa0-5035-4e28-a5ff-6d859e711015" ImageBase64="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" InformativeScreenshot="02778243d76db56de9ebc320ad49a79a.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/Gi4NajJFo0iEW-mvOfnbqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account Login' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="569, 505, 54, 35" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='col-form-label' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAAnCAYAAABe81ttAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVGhD7ZRBTsQwDEU5bY/RHqPqPSbXiFggFiAWLOgsEBIbEJvK2ImTOGnVGdigGn9ppEmcOH7OT2/gn8hAtclAtclAtclAtclAtclAtclAtUmAzuD6Drqu/IbTzLGjiVgGcGceohpQGfQwIuzoeXgo/QgUZ04DdNMRSX8Bmu17djBs2pr2ScuP6AWUH8Ucr6c50Tg/YawZZwc1+4uz0Gm9gznFeX+4lLS+H3HN1aB71qVYAVq/ZcrFcSlqFhUZBlQwFZTWiT2hqWJ/GKfaYl2V03bXR+1+jCrIsFnGU2I+WB6ESh2umyCayQ2ideEcys9NqJzEKrctmsxar28v7YJ1iyi5jK0Pi3OXgVNRfuJ8BIi3I4v9O9DWGuF9tKBRGUCKYcp/smyyMJ2LY7mvPS+MU3yjybvro6680di1bNvJheJC4uajEd8O5RJzKzfUlg65MziryVue0Zabmvowl2saLkB1y0C1yUC1yUC1yUC1yUC1yUC1qQL9+PyCp+cXuL1/BH/3oOqXQQmSAF/f3mFZFp7VIoBvhuUxonyAJ8QAAAAASUVORK5CYII=" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">pswd</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Enter password" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="StepStatus_4" Name="step 4" Status="Compare" TakeScreenshot="True" />
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Login (1)'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8caa1224-fe9e-4078-8d77-f068effb52de" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://demo.opencart.com/index.php?route=account/login&amp;language=en-gb" ContentHash="PjQPQGA2IUG9EbPxkuUVFg" DesignTimeRectangle="569, 618, 67, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Login (1)'" FullSelectorArgument="&lt;webctrl parentid='form-login' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='form-login' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Login' check:innerText='Login' /&gt;" Guid="4e1b890d-b845-437d-a069-bf26dedbecc1" ImageBase64="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" InformativeScreenshot="7ca81e9566e923ec8f41c2d6bb96fa51.png" Reference="l1kQt_B9yUeUxyqW0zcptQ/156TprXEK0uOC0IAJ1Vl-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account Login' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="openCart_Succesfully login" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="StepStatus_5" Name="step 5" Status="Compare" TakeScreenshot="True" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="-dyj4HEp_0OlUU0DCYyd7Q" IconBase64="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" InformativeScreenshot="c7d8ff318012e2e35ce50340df4b1c4d.jpg" Reference="l1kQt_B9yUeUxyqW0zcptQ/XkJQpFdsGEOh3SGmC2rMKA" Selector="&lt;html app='chrome.exe' title='Your Store' /&gt;" Title="Your Store" Url="https://demo.opencart.com/" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+      <ui:ForEachRow.DataTable>
+        <InArgument x:TypeArguments="sd:DataTable">
+          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">DataTB</mca:CSharpValue>
+        </InArgument>
+      </ui:ForEachRow.DataTable>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>

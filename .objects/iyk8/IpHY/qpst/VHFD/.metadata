@@ -1,0 +1,16 @@
+﻿{
+  "Id": "VHFD1lCnv0SA1lPobfDVHA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/VHFD1lCnv0SA1lPobfDVHA",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/qpst7DUzHkKAvNPj0gzy8g",
+  "Name": "continue_ShippingMethod",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-27T11:02:23.4880454Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:02:55.7752036Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

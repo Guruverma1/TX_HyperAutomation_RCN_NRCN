@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IVh_7Za_wECXlHUlo4u1ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://demo.nopcommerce.com/" DesignTimeRectangle="812, 271, 67, 30" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Books'" FullSelectorArgument="&lt;webctrl aaname='Books ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Books ' tag='A' type='' class='' check:innerText='Books' /&gt;" Guid="5aec290d-3eae-4ff0-bb7c-08361dcfadb6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAiCAYAAAANicT2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGISURBVGhD7ZXhjYMwDEZvSZYpo8AcFWtUTEGXyAGxiZMYtw3Jj959T4oEghrnxXZ/HDgFcgwgxwByDCDHAHIMIMcAcgwgxwByDArkLG66da7r9DU+6LXqzG5c4/f3he7bUy7nNq1XCY+xoaBvl2M+u8pfkTPMdM/4jYX26930pEeC5d6Ld9YVxVHkUKV23bg+9cyD+P22LhxUg7YKie48J9dvSYqNsgTZfn5TUhoJPb6TyGExIq6PIb9/dljvUX0gp3L2hDORiWASmM2qaIYJOYqYqyI06lYOV8nx7DxhXz0kct+s1mqyWuh6GJNvBEJb6m37KZVnDpc2J0et8UKOv35PTqhQ0WISPqBjlYuqLifeaIPKISH5jNJgoWWCGlVOmDv5kNxIYtBpZ5VwNnN2aOOvZkwU4zPqyqFEok22+rdaiePoeemH8x7lcrbElaWfEJc3Lz1Z3iyvuJJyOSGXpI1FjFIxGwVy/g+QYwA5BpBjADkGkGMAOQaQYwA5BpBjADkGkHOKc793zUD5gKkSBgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="00fb29d605d1fb71ce4354597c4e794c.png" xmlns="">0Vq7mmAwmOEOYSVqECBgvLQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

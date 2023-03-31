@@ -1,0 +1,12 @@
+﻿{
+  "Id": "BHEPycIYl0aHzG767WXDvw",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/BHEPycIYl0aHzG767WXDvw",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/-IiPGulch0CO-acRJbfAMA",
+  "Name": "Chrome: SAP",
+  "Type": "Screen",
+  "Created": "2023-03-29T10:48:52.6100902Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-29T10:48:52.6100902Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "FETv_UqO7EW7dEItDnO5Zg",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/FETv_UqO7EW7dEItDnO5Zg",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/mRBzXziXj0-OncW2vgioFg",
+  "Name": "Add to Cart",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-20T08:18:18.1409751Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-20T08:18:18.1409751Z"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TIlYLsVWKEyLwNvgsEXYPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 46, 36, 28" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Back'" FullSelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Back' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Shopping Cart - Google Chrome' role='pane' /&gt;&lt;ctrl name='Back' role='push button' automationid='' check:text='Back' /&gt;" Guid="3bf70c20-b320-49a2-95af-42bac8088ebf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAYAAABgrToAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADDSURBVFhH7dExDgIhEEZhL6XFdlp4+416FKM97m8eDZkChyFuMSSv2MCSDzjUUbZxPC27C14C3cFLoDt4CXQHL4Hu4MUDz5drWW+Pb9Z8b/BigRX3fL3Let8ZsMXp21rXG7wYYDROwRsHzsApeGPAWTgFbwwolHC/pANZe7XB+wNw+8faqw1ewBOD1M3s7onVLCS8caCagYQXA1TRSHhxQNUirTW9wYsFqopU1nxv8OKBUcFLoDt4CXQHL4Hu4CXQ2VI+H/+V/uzX4k4AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Shopping Cart - Google Chrome' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="abf6943f5d7cd187793a9092a4fb41b1.png" xmlns="">0NIr-OSZvnkCjQZOTMYZFzQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

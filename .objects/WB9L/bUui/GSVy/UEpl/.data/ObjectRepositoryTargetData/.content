@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qKXN-QAlJU-L12ffMFhXmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="115, 258, 128, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'State'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='State' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='State' /&gt;" Guid="d3a3c82c-ea99-453f-b4dc-aaad1cd78125" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIQAAAAYCAYAAAA74FWfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACkSURBVGhD7dI9CsQgFEXh2bs7cH9pNUUSBQvBwhcMzM9FmA14Prjd69555ZyNsfcIgsk+QaSU7DgOtthCCLbv+xzEeZ7WWrPeO1topZQniimIUcs4wFpqrQSBL4KAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAiIv0Fs2/ZEwdbZ+HmMcQ7iui7z3ptzji208fPx+ykIxsYIgv0s2w2KBwPfCh1cHgAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='OrderForm' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="19, 264, 35, 17" ElementType="Text" FriendlyName="'State'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label10' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label10' check:text='State:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAVCAYAAADFEfeTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADmSURBVEhL7ZPREQQRDED1pp40oxadaEQHOWeFrMS6NXNzezM+3gcieQITY8SnsuVW+UO54NAag4YDXsZ9GUXOI2Qhiy4ccx6YIIlbh0Hs7bgTqyDlZgl/Klc7pyUN6GxZo3UPbczntdiUIzirxFJNQM/qDT9EvcpTkrQ26QbtA6/E0kHK+yVR64LI82Yox5m9OXGQhCanxWUGn+0juVORrmC9plLgqnO0NupUj5CrxZTO5KQDuaNge2eX11reVn+wHrVzdROnJmAfJhfh40aWE7FK7ix+80M8gS23ypZbZcut8mC5iC/Z+OMxOL/GkAAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="43a9bfa031e5a5a7adcf79117ba13f00.png" xmlns="">0_tkXjN02aEqCAOeIYgEo8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

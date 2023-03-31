@@ -1,0 +1,14 @@
+﻿{
+  "Id": "bb_BO4Fm6U69fhROEWPA6g",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/bb_BO4Fm6U69fhROEWPA6g",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/A1mMMrdtXkewmGGKhRJtTA",
+  "Name": "Enter_Password",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-30T07:18:03.2349413Z",
+  "CreatedBy": [
+    "UiPath.MobileAutomation, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T07:18:03.2349413Z"
+}

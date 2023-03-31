@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tb1KTb_0RE22_6hsrvA7rA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="339, 258, 128, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Zip'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='Zip' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='Zip' /&gt;" Guid="2edbdbda-7a18-4ec8-863f-610c3672afb1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIQAAAAYCAYAAAA74FWfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACkSURBVGhD7dI9CsQgFEXh2bs7cH9pNUUSBQvBwhcMzM9FmA14Prjd69555ZyNsfcIgsk+QaSU7DgOtthCCLbv+xzEeZ7WWrPeO1topZQniimIUcs4wFpqrQSBL4KAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAiIv0Fs2/ZEwdbZ+HmMcQ7iui7z3ptzji208fPx+ykIxsYIgv0s2w2KBwPfCh1cHgAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='OrderForm' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="251, 259, 24, 17" ElementType="Text" FriendlyName="'Zip'" FullSelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label11' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Group' /&gt;&lt;wnd ctrlname='label11' check:text='Zip:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAYAAABVAo5cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVEhL7ZLRDQMhCIbdjXlYhlnYhEXcgKbY9ijFUxPTpM09fA8n4T78sdRa9Ztcwu18Chm1lJKC7OpAKrF3gokbsqIJUTmtrzEUMt5loCR5fZVToRBYfEBynMdIsxVYLU+mLxRSeDW7866wpdASCUM6OsKTvfWE8Rv5ve9BKnxOaa8y1ncL0715BsLFSEUJWkOG/aQn9NjtVh/NLHGAAT8oXOQSbuffhVVv3tnvGSjdY3oAAAAASUVORK5CYII=" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="832e0643bed33646a3c9dd03f6388054.png" xmlns="">0uqeMht3MJ0KOMEZ998Ht6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

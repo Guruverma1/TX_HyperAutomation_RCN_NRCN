@@ -1,0 +1,11 @@
+﻿{
+  "Id": "w_2v0Iu3JkSB_o21U41tlA",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/w_2v0Iu3JkSB_o21U41tlA",
+  "Name": "Desktop_DeleteOrder",
+  "Type": "App",
+  "Created": "2023-03-15T12:27:38.444671Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T12:27:38.444671Z"
+}

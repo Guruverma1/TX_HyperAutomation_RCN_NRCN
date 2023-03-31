@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tE6d1TQETkiH1qVIOGnAjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="323, 442, 72, 24" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;wnd ctrlname='ButtonOK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ButtonOK' check:text='OK' /&gt;" Guid="5740f7ad-0489-4b77-9ec7-3aa45d32fc2e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAcCAYAAADLGVncAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFuSURBVGhD7ZhBqoMwEIZzulzI23gUJTdQEFfiwqWiuHCtyLz+oX1NotWXhb6UZPFBiZPCfExmYNg0TRT4O0GYJUGYJRth4zhSVVVUliUVReEtdV1LF6YfTRgCIKrrOlqWhdZ19RLk3ve9dGFK04TB6jAMu3/iI23bytemOtKEoRTned697CNwgSpTHW2E7V30GThRHQVhJzgmTFDEGDEFHjfG94iEcqeJuYyLxPvsShwS1lDMzcTNM0OYiIjxmJrf+OtxR1gTE99LXpOiCMO5UW134IwwPC39+b1Qq+r5G3IZp7gxY6/nC4V96m/38JXCZE/7pypzRph1D3sgJ6S3Tf85EfUqO5mSu5P1WhwSBvQete1TprAHclreJ80xYe4ThFkShFlyKAyrjLDeeQMXh8KwLMPSbO+yj2DriqWq6kgT9lpRI9DnSkPuKJzTFTVAQJ7nlKYpJUniJUIIyrJsIwtshAWOCcIsCcKsmOgHgFepSXe7APYAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='OrderForm' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b8aff0f52d1ddf4d1446aa3f7a3b3d9.png" xmlns="">0BhbNA5vWZEu6fF7CrleNfA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

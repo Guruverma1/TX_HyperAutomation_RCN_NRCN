@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-y_3F6YuvEWPt7CpssdrDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark#/checkout" DesignTimeRectangle="40, 420, 56, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Step 4'" FullSelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardStep-nextButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---checkoutView--creditCardStep-nextButton' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMWizardNextButtonVisible' aaname='Step 4' check:innerText='Step 4' /&gt;" Guid="ea8f4789-3612-413d-af84-bcc0d0333588" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="16312c949cbd2cc655948ace3de1c523.png" xmlns="">0C35RSsuHeEGVlVLIFa4iKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

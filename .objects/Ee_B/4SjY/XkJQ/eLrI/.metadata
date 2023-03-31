@@ -1,0 +1,13 @@
+﻿{
+  "Id": "eLrIWnOo2EGwDKa5SIzVPQ",
+  "Reference": "l1kQt_B9yUeUxyqW0zcptQ/eLrIWnOo2EGwDKa5SIzVPQ",
+  "ParentRef": "l1kQt_B9yUeUxyqW0zcptQ/XkJQpFdsGEOh3SGmC2rMKA",
+  "Name": "E-Mail Address",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-27T11:51:32.520113Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-27T11:51:32.520113Z"
+}

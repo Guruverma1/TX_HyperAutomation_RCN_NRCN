@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YzKdbtkPWEyU_zUsqqzm8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="40, 31, 49, 19" DesignTimeScaleFactor="1" FriendlyName="'Orders'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='Orders' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='Orders' role='menu item' automationid='' check:text='Orders' /&gt;" Guid="c9f23fc1-3881-4d58-a99c-1e59fd1e79fc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAXCAYAAACrggdNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7ZXbEYQgDEXTFg3RDi1Qhc3QhKMFZAkPNyDuhB0/hPHO5IPhdU8SEfZ9x9liTiicUC/UKHqhRlEf1KIRAI5QxqUJiRbUoLBry5+SQwUgbsqhUT1gj4OKAHpJwyxnUIH2diV6GtSleYLNRqNprZWvaFob9uVWNSUUmzvWn86IycztfkrqheRQyvgravEKkiHejnGcjThDRssEfJfqtK86g1peSsJ0e6UOo6dEsPmiSimC+cYZHFKoG7+pXqhWkqozkmKV724/Unj9uBEyULcbNxTnr9uvVYE2FIn2SysmhyJV/6kycw1DbP3vh8JHq/2K+1qVbasPahC9UKNoTqht23C2gHVdcbYAay3OFRY/NAqaHsia9vEAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='orders.exe' ctrlname='MainForm' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2cab06ef77eaadfab83b5e70ccdace18.png" xmlns="">0I2M0cjpSwEikCZlH8QmBOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
