@@ -4,7 +4,7 @@
     <x:Property Name="pswd" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>962,3574</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>962,3576</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="78">
@@ -96,20 +96,15 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.Testing</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenCart_LoginFailed" sap:VirtualizedContainerService.HintSize="972,3509" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenCart_LoginFailed" sap:VirtualizedContainerService.HintSize="972,3511" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Alert_msg" />
-      <Variable x:TypeArguments="x:String" Name="Value">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Warning: No match for E-Mail Address and/or Password.</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Warning: No match for E-Mail Address and/or Password." Name="Value" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -118,13 +113,13 @@
     </sap:WorkflowViewStateService.ViewState>
     <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="930,85" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="WebApplication" />
     <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="930,85" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Invalid Login Credential" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome: OpenCart_Your Store" sap:VirtualizedContainerService.HintSize="930,3171" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d3a80138-8d14-4bad-bb1e-a36c8e008395" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome: OpenCart_Your Store" sap:VirtualizedContainerService.HintSize="930,3173" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d3a80138-8d14-4bad-bb1e-a36c8e008395" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="896,2954" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="896,2956" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -197,7 +192,7 @@
                       </InArgument>
                     </ui:LogMessage.Message>
                   </ui:LogMessage>
-                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Warrning  Alert msg" Status="Compare" TakeScreenshot="True">
+                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Warrning  Alert msg" Status="Fail" TakeScreenshot="True">
                     <ra:StepStatus.Description>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
